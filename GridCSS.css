@@ -1,3 +1,4 @@
+/*Setting the box-sizing to border-box for the whole document*/
 html {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -9,6 +10,7 @@ html {
 	box-sizing:border-box;
 }
 
+/*Removing the padding and margins of body*/
 body{
 	margin:0;
 	padding:0;
@@ -35,12 +37,14 @@ body{
 	border: 1px solid gray;
 	
 }
+/*Removing the floats*/
 .container_main:after{
 	display:table;
 	clear:both;
 	content:"";
 }
 
+/*Removing the floats*/
 .container:after{
 	display:table;
 	clear:both;
@@ -53,6 +57,7 @@ body{
 	border: 1px solid gray;
 }
 
+/*Removing the floats*/
 .container_sidebar:after{
 	display:table;
 	clear:both;
@@ -88,6 +93,8 @@ body{
 	margin:0.5rem;
 	padding: 0.5rem;
 }
+
+/*Removing the floats*/
 .row:after{
 	display:table;
 	clear:both;
