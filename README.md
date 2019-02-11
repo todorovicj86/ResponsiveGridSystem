@@ -118,7 +118,6 @@ To have three columns in one row, the width is calculated as
 	background-color:#70FFD3;
 	border: 1px solid gray;
 	float:left;
-	
 }
 ```
 Regarding `.sidebar_item`, the width is calculated as `width: calc(100% - 2*0.5rem);`. As the items in the sidebar are arranged in only one column, there are 2 margins of 0.5rem for subtracting. 
@@ -193,6 +192,16 @@ To check the grid system, the best is to try different vairations.
 
 </div> <!--End of .container-->
 		
+```
+The `.big_item` is div that takes the whole width of the container, minus the left and right margins. 
+
+```
+.big_item{
+	height:100px;
+	background-color:#70FFD3;
+	width: clac(100% - 2*0.5rem);
+	border: 1px solid gray;
+}
 ```
 The section with class `.guest` is composed of three parts: 
 * `guest_profile`
