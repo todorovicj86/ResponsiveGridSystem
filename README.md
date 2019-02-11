@@ -16,7 +16,6 @@ More detailed explanations are given at https://zellwk.com/blog/responsive-grid-
 To create grid system, the box-sizing is set to border-box, for easier calculations of column's and gutter's sizes. 
 
 ```
-
 html {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -32,11 +31,12 @@ html {
  The grid container determines the maximum width of the grid. In this example, it has a class name `.container`.
 
  ```
- .container{
+ .container {
 	width:60%;
 	height:100%;
-	margin: 0 auto;
-}
-```
+	margin: 0 auto; 
+	} ```
 
 The width is set in % for responsive purposes. 
+
+## Step 3: Calculating the column width 
