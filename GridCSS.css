@@ -136,7 +136,7 @@ body{
 	.container_sidebar{
 		width: 100%;
 		float:left;
-		border-top:none;
+		margin-top: 10px;
 	}
 	.guest_profile {
 		width: calc(100% - 1rem);
@@ -161,9 +161,10 @@ body{
 	}
 	
 	.container_sidebar{
-		width: 39%;
+		width: 40%;
 		float:right;
 		border-top: 1px solid gray;
+		margin-top:0;
 	}
 	.guest_profile {
 		width: calc(((100% - 2rem) / 12) * 6);
@@ -191,7 +192,7 @@ body{
 	}
 	
 	.container_sidebar{
-		width: 29%;
+		width: 30%;
 		float:right;
 	}
 	
@@ -223,7 +224,7 @@ body{
 	}
 	
 	.container_sidebar{
-		width: 29%;
+		width: 30%;
 		float:right;
 	}
 	
