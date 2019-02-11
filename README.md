@@ -35,7 +35,8 @@ html {
 	width:60%;
 	height:100%;
 	margin: 0 auto; 
-	} ```
+	}
+ ```
 
 The width is set in % for responsive purposes. 
 
