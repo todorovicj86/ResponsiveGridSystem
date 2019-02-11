@@ -4,7 +4,7 @@ The responsive grid system made using the CSS floats and CSS media query.
 The process is composed of several steps:
 
 * Step 1: Setting the `box-sizing` to `border-box`
-* Step 2: Creating the grid conatiner
+* Step 2: Creating the grid container
 * Step 3: Calculating the column width
 * Step 4: Creating the gutter (gap) position and size
 * Step 5: Creating the layouts
@@ -28,3 +28,15 @@ html {
 	box-sizing:border-box;
 }
 ```
+## Step 2: Creating the grid container
+ The grid container determines the maximum width of the grid. In this example, it has a class name `.container`.
+
+ ```
+ .container{
+	width:60%;
+	height:100%;
+	margin: 0 auto;
+}
+```
+
+The width is set in % for responsive purposes. 
